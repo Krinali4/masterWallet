@@ -1,0 +1,22 @@
+.tagStatusBox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    h2 {
+        height: 42px;
+        background: #E7F2E7;
+        border-radius: 40px;
+        padding: 0 23px;
+        line-height: 40px;
+        font-weight: 600; 
+        font-size: 16px;
+        color: #4C7B29;
+        text-transform: capitalize;
+    }
+    p { 
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px; 
+        color: #171B1E;
+    }
+}

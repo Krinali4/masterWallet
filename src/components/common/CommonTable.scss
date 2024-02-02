@@ -1,0 +1,92 @@
+.listingTable {
+    width: 100%; 
+    border-radius: 20px ;
+    background-color: #fff;
+    overflow: hidden;
+    table {
+        width: 100%;
+        border: 0;
+        outline: 0;
+        background-color: #fff;
+        border-radius: 20px 20px 0 0;
+        thead {
+            background-color: #fff;
+            tr{
+                background-color: #fff;
+                th {
+                    background-color: #fff; 
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 20px; 
+                    color: #171B1E;
+                    padding: 25px 32px;
+                    text-align: left; 
+                    border-bottom: 1px solid #D4D4D4;
+                }
+            }
+        }
+        tbody {
+            background-color: #fff;
+            tr{
+                background-color: #fff;
+                td {
+                    background-color: #fff; 
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 17px; 
+                    color: #171B1E;
+                    padding: 20px 32px;
+                    text-align: left;
+                    border: none;
+                }
+            }
+        }
+    } 
+}
+
+.paginationBox {
+    position: relative;
+    p {
+        span {
+            display: inline-block;
+            font-weight: 600;
+            padding: 0 5px;
+        }
+    }
+    ul {
+        li {
+            margin: 0 2px;
+            button.Mui-selected { 
+                background: #fff !important;
+                border: 1px solid #4C7B29;
+            }
+            button {
+                background: #FFFFFF;
+                border: 1px solid #C1C1C1;
+                font-weight: 600;
+                font-size: 16px;  
+                color: #171B1E;
+                width: 36px;
+                height: 36px;
+                border-radius: 50%;
+                &:disabled {
+                    background: #C1C1C1 !important;
+                    border:1px solid #C1C1C1 !important;
+                }
+            }
+            div.MuiPaginationItem-sizeMedium {
+                background: #FFFFFF;
+                border: 1px solid #C1C1C1;
+                width: 36px;
+                height: 36px;
+                border-radius: 50%;
+                margin: 0;
+                padding: 0;
+                line-height: 26px;
+                font-weight: 600;
+                font-size: 16px;  
+                color: #171B1E;
+            }
+        }
+    }
+}

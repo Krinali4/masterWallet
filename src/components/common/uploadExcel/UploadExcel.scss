@@ -1,0 +1,97 @@
+.uploadExcelBox {
+    position: relative;
+    width: 100%;
+
+    .fileHolder {
+        border: 1px dashed #717579;
+        background-color: #EFEFEF;
+        border-radius: 30px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px;
+        height: 100%;
+        width: 100%;
+    }
+
+    .fileHolderActive {
+        width: 100%;
+
+        .deleteIcon {
+            cursor: pointer;
+            width: 32px;
+            height: 32px;
+            color: #EE4444;
+            position: relative;
+            z-index: 2;
+        }
+
+        .excelFileIcon {
+            height: 60px;
+            width: 60px;
+            background: #E7F2E7;
+            border-radius: 50px;
+            margin-right: 15px;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+        }
+    }
+
+    input[type="file"] {
+        display: block;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        opacity: 0;
+        cursor: pointer;
+        z-index: 1;
+    }
+}
+
+.fileError {
+    position: relative;
+    margin-top: 25px;
+
+    p {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 18px; 
+        color: red;
+        margin-bottom: 15px;
+        display: flex;
+        align-items: center;
+        svg {
+          width: 6px;
+          height: 6px; 
+          margin-right: 10px;
+        }
+      }
+}
+
+@media only screen and (max-width: 1480px) {
+    .uploadAction {
+        .PrimaryBtn {
+            width: 180px !important;
+        }
+    }
+}
+@media only screen and (min-width: 1481px) {
+    .uploadAction {
+        .PrimaryBtn {
+            width: 220px !important;
+        }
+    }
+}
+@media only screen and (min-width: 1700px) {
+    .uploadAction {
+        .PrimaryBtn {
+            width: 260px !important;
+        }
+    }
+}

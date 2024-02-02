@@ -1,0 +1,59 @@
+$baseDesignWidth: 1920; // as per the style guide in figma
+$baseDesignHeight: 1080; // as per the style guide in figma
+$variationWidthFactor: 0px;
+$variationHeightFactor: 0px;
+
+@function get-vw($target, $unit: vw) {
+  $vw-context: ($baseDesignWidth * 0.01) * 1px;
+  $tg: $target + $variationWidthFactor;
+  @return ($tg / $vw-context) * 1vw;
+}
+
+@function get-vh($target, $unit: vh) {
+  $vh-context: ($baseDesignHeight * 0.01) * 1px;
+  $tg: $target + $variationHeightFactor;
+  @return ($tg / $vh-context) * 1vh;
+}
+
+@function get-font-vw($target, $unit: vw) {
+  $vw-context: ($baseDesignWidth * 0.01) * 1px;
+  $tg: $target + $variationWidthFactor; // + 1px to be added incase baseline changes
+  @return ($tg / $vw-context) * 1vw;
+}
+
+@function get-font-vh($target, $unit: vh) {
+  $vh-context: ($baseDesignHeight * 0.01) * 1px;
+  $tg: $target + $variationHeightFactor; // + 1px to be added incase baseline changes
+  @return ($tg / $vh-context) * 1vh;
+}
+
+@function getDeviceScaleFactor($screenWidth) {
+  $scaleFactor: $baseWidth/$screenWidth;
+  @return $scaleFactor;
+}
+
+@function getNavigationBarHeight() {
+  @return get-vw(114px);
+}
+
+
+// Custome button start
+button[disabled] {
+  background-color: #C1C1C1 !important;
+  color: #fff !important;
+  border-color: #C1C1C1;
+}
+
+
+.buttonLoader {
+  height: 24px;
+  width: 24px;
+  margin-left: 14px;
+}
+.buttonLoader1{
+  height: 24px;
+  width: 20px;
+  // margin-left: 14px;
+  margin-top: 30px;
+
+}

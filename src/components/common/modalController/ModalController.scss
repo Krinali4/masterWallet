@@ -1,0 +1,28 @@
+.modal-controller-container {
+    * {
+        box-sizing: border-box;
+    }
+    .MuiPaper-elevation.MuiPaper-rounded {
+            border-radius: 20px; 
+            background-color: #fff; 
+            padding: 0;
+        .model-title {
+            text-align: center;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 26px;
+            color: #171B1E;
+        }
+        .modal-controller-content {
+            max-width: 510px;
+            width: 100%;
+            margin: 0 auto;
+            padding: 56px 42px;
+            box-sizing: border-box;
+            
+            div {
+                padding: 0;
+            }
+        }
+    } 
+}

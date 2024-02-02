@@ -1,0 +1,81 @@
+.customDatePicker {
+    width: 100%;
+    width: 100%;
+    background: #EEEEEE;
+    border-radius: 50px;
+    border-color: #EEEEEE;
+    font-weight: 400;
+    font-size: 16px;
+    height: 60px;
+    color: #171B1E; 
+    & > div {
+        width: 100%;
+        padding: 0;
+        input {
+            font-weight: 400;
+             font-size: 16px;
+             color: #171B1E;
+             padding: 18px 15px 18px 22px !important;  
+             width: 100%;
+             &::placeholder {
+                color: #717579 !important;
+                opacity: 1 !important;
+            }
+    
+            &::-webkit-input-placeholder {
+                /* Chrome/Opera/Safari */
+                color: #717579 !important;
+                opacity: 1 !important;
+            }
+    
+            &::-moz-placeholder {
+                /* Firefox 19+ */
+                color: #717579 !important;
+                opacity: 1 !important;
+            }
+    
+            &::-ms-input-placeholder {
+                /* IE 10+ */
+                color: #717579 !important;
+                opacity: 1 !important;
+            }
+    
+            &::-moz-placeholder {
+                /* Firefox 18- */
+                color: #717579 !important;
+                opacity: 1 !important;
+            }
+         }
+         button {
+             svg {
+                 color: #000;
+             }
+         }
+         .css-1ptx2yq-MuiInputBase-root-MuiInput-root:hover:not(.Mui-disabled)::before {
+             border-bottom: 2px solid #999;
+         }
+         .css-1ptx2yq-MuiInputBase-root-MuiInput-root::after {
+             border-bottom: 2px solid #999; 
+         }
+         .css-1ptx2yq-MuiInputBase-root-MuiInput-root::before {
+             border-bottom: 1px solid #bababa; 
+         }
+         fieldset {
+            width: 100%;
+            border-radius: 50px; 
+            border-color: #EEEEEE !important;
+            &:hover { 
+                border-color: #EEEEEE !important; 
+            } 
+            &:focus { 
+                border-color: #EEEEEE !important; 
+                background-color: transparent; 
+                box-shadow: none; 
+            } 
+            &:focus-visible { 
+                outline: none; 
+                box-shadow: none !important; 
+            }
+        }
+    } 
+}

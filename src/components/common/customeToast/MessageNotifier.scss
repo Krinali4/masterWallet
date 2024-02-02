@@ -1,0 +1,88 @@
+.successBox {
+    color: #fff;
+    background-color: #4C7B29 !important;
+    align-items: center;
+    min-width: 353px;
+    border-radius: 10px 0 0 10px;
+    left: auto !important;
+    right: 0 !important;
+    bottom: 50px !important;
+    position: fixed !important;
+    z-index: 999 !important;
+
+    &>div {
+        background: transparent;
+        color: #fff;
+        font-weight: 600;
+        font-size: 18px;
+        padding: 6px 25px;
+        letter-spacing: 0.01em;
+
+        .MuiAlert-icon {
+            display: none;
+        }
+
+        .MuiAlert-action {
+            margin-top: 2px;
+
+            button {
+                padding: 0;
+                margin: 0;
+
+                svg {
+                    width: 28px;
+                    height: 28px;
+                }
+            }
+        }
+    }
+
+    svg {
+        color: #fff;
+    }
+}
+
+.failedBox {
+    color: #fff;
+    background-color: #CC3333 !important;
+    align-items: center;
+    min-width: 353px;
+    border-radius: 10px 0 0 10px;
+    left: auto !important;
+    right: 0 !important;
+    bottom: 50px !important;
+    position: fixed !important;
+    z-index: 999 !important;
+
+    &>div {
+        background: transparent;
+        color: #fff;
+        font-weight: 600;
+        font-size: 18px;
+        padding: 6px 25px;
+        letter-spacing: 0.01em;
+
+        .MuiAlert-icon {
+            display: none;
+        }
+
+        .MuiAlert-action {
+            margin-top: 2px;
+
+            button {
+                padding: 0;
+                margin: 0;
+
+                svg {
+                    width: 28px;
+                    height: 28px;
+                }
+            }
+
+        }
+    }
+
+    svg {
+        color: #fff;
+    }
+}

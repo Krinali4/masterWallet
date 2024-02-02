@@ -1,0 +1,95 @@
+.viewTagsHeader {
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.04);
+    border-radius: 20px;
+    padding: 38px 0;
+    .statusBox {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        h2 {
+            height: 42px;
+            background: #E7F2E7;
+            border-radius: 40px;
+            padding: 0 23px;
+            line-height: 40px;
+            font-weight: 600; 
+            font-size: 16px;
+            color: #4C7B29;
+            text-transform: capitalize;
+        }
+        p { 
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 24px; 
+            color: #171B1E;
+        }
+    }
+    .viewTagsTitle { 
+        border-bottom: 1px solid #D4D4D4;
+        padding: 0 32px 40px;
+        margin: 0 0 40px; 
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .viewTagsDetails {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        gap: 10px;
+        padding: 0 32px;
+
+        .detailBox {
+            p {
+                display: block;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 17px;
+                margin: 0;
+                color: #171B1E;
+
+                span {
+                    font-weight: 700;
+                    margin-right: 8px;
+                }
+            }
+        }
+    }
+}
+
+.assignedBox {
+    .blockTitle {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        color: #171B1E;
+        min-width: fit-content
+    }
+
+    .blockData {
+        a {
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 24px;
+            text-decoration-line: underline;
+            color: #171B1E;
+            cursor: pointer;
+        }
+    }
+}
+
+.geoLocationToggle {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.locationMap {
+    position: relative;
+    min-height: 365px;
+    width: 100%;
+}

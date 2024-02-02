@@ -1,0 +1,29 @@
+.reviewMaterialPoints {
+    position: relative;
+    margin-top: 40px;
+    p {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 22px; 
+      color: #4A4A4A;
+      margin-bottom: 15px; 
+      position: relative;
+      padding-left: 15px;
+      a {
+        margin: 0 5px;
+        cursor: pointer;
+        font-weight: 700; 
+      }
+      b {
+        margin: 0 5px;
+      }
+      svg {
+        width: 6px;
+        height: 6px; 
+        color: #4A4A4A;
+        position: absolute;
+        left: 0;
+        top: 8px;
+      }
+    }
+  }

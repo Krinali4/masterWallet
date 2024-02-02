@@ -1,0 +1,74 @@
+ 
+.reportMetrix {
+    background:  linear-gradient(212.43deg, #4C7B29 19.43%, #3D6023 87.63%); /* Shadow 2 - Card */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.04);
+    border-radius: 20px;
+    padding: 15px 25px; 
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    .reportDataBox {
+        width: 100%;
+        p.reportMetrixTitle {
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 29px; 
+            color: #FFFFFF;
+            text-align: center;
+            margin: 0 0 25px;
+        }
+        p.reportMetrixCount {
+            display: block;
+            font-weight: 700;
+            font-size: 46px;
+            line-height: 56px; 
+            color: #FFFFFF;
+            margin: 0;
+            text-align: center;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis; 
+        }
+    } 
+    &::before {
+        content: "";
+        background: url("../../../statics/svgs/statsBg.svg") center center / cover;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    &.kpa {
+        padding: 15px; 
+        p.reportMetrixTitle {
+            font-weight: 500;
+            font-size: 22px;
+            line-height: 27px; 
+            color: #FFFFFF;
+            text-align: center;
+            margin: 0 auto 11px;
+            max-width: 266px;
+        }
+        p.reportMetrixCount {
+            display: block;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 49px; 
+            color: #FFFFFF;
+            margin: 0;
+            text-align: center;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis; 
+        }
+    }
+    .loaderBox {
+        svg {
+            color: #fff;
+        }
+    }
+} 
+ 

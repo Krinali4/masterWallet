@@ -1,0 +1,85 @@
+    @font-face {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 100;
+      src: local('Montserrat Thin'), url('./statics/fonts/montserrat/Montserrat-Thin.woff') format('woff');
+    }
+
+    @font-face {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 200;
+      src: local('Montserrat ExtraLight'), url('./statics/fonts/montserrat/Montserrat-ExtraLight.woff') format('woff');
+    }
+
+    @font-face {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 300;
+      src: local('Montserrat Light'), url('./statics/fonts/montserrat/Montserrat-Light.woff') format('woff');
+    }
+
+    @font-face {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 400;
+      src: local('Montserrat Regular'), url('./statics/fonts/montserrat/Montserrat-Regular.woff') format('woff');
+    }
+
+    @font-face {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 500;
+      src: local('Montserrat Medium'), url('./statics/fonts/montserrat/Montserrat-Medium.woff') format('woff');
+    }
+
+    @font-face {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 600;
+      src: local('Montserrat SemiBold'), url('./statics/fonts/montserrat/Montserrat-SemiBold.woff') format('woff');
+    }
+
+    @font-face {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 700;
+      src: local('Montserrat Bold'), url('./statics/fonts/montserrat/Montserrat-Bold.woff') format('woff');
+    }
+
+    @font-face {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 800;
+      src: local('Montserrat ExtraBold'), url('./statics/fonts/montserrat/Montserrat-ExtraBold.woff') format('woff');
+    }
+
+    @font-face {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 900;
+      src: local('Montserrat Black'), url('./statics/fonts/montserrat/Montserrat-Black.woff') format('woff');
+    }
+
+    body {
+      box-sizing: border-box;
+      font-family: 'Montserrat' !important;
+      background-color: #F5F5F5;
+    }
+
+    * {
+      box-sizing: border-box;
+      font-family: 'Montserrat' !important;
+    }
+    .editIcon {
+      width: 60px;
+      height: 60px;
+      background-color: #E7F2E7 !important;
+      padding: 0;
+      margin: 0;
+      svg {
+        color: #4C7B29;
+        width: 26px;
+        height: 26px;
+      }
+    }

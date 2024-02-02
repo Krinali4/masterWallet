@@ -1,0 +1,18 @@
+.legendItem-container {
+    display: flex;
+    align-items: center;
+    .dot {
+        margin-right: 10px;
+        height: 14px;
+        width: 14px;
+        border-radius: 50%;
+        display: inline-block;
+    }
+    h6.legend-title {
+        font-family: "Montserrat";
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: white;
+    }
+}

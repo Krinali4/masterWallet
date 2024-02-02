@@ -1,0 +1,102 @@
+@import "../../common.scss";
+.wrapLayout {
+  display: "flex";
+  justify-content: "center";
+  align-items: "center";
+  .Emaillbl {
+    font-family: "Montserrat Bold";
+    font-style: normal;
+    font-weight: 600;
+    font-size: get-font-vw(18);
+    line-height: get-font-vw(22);
+    margin-bottom: 12px;
+    display: flex;
+    align-items: flex-end;
+    color: #171b1e;
+  }
+  .wrapfootelbl {
+    font-family: "Montserrat Medium";
+    font-style: normal;
+    font-weight: 500;
+    font-size: get-font-vw(30);
+    line-height: get-font-vw(30);
+    text-align: center;
+    text-transform: capitalize;
+    color: #171b1e;
+  }
+  .Loginheading {
+    font-family: "Montserrat Bold";
+    font-style: normal;
+    font-weight: 700;
+    font-size: get-font-vw(36);
+    line-height: get-font-vw(44);
+    text-align: center;
+    color: #171b1e;
+  }
+  .MuiFormControl-root.MuiTextField-root.inputField {
+    width: 100%;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: get-font-vw(16);
+    line-height: get-font-vw(20);
+    color: #000;
+  }
+
+  .MuiInputBase-root.MuiFilledInput-root.MuiFilledInput-underline.MuiInputBase-colorPrimary.MuiInputBase-formControl {
+    background: transparent;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: get-font-vw(16);
+    line-height: get-font-vw(20);
+    color: #000;
+  }
+  .wrap_resend p span {
+    font-size: get-font-vw(18);
+    line-height: get-font-vw(22);
+  }
+  h6.version-label {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: get-font-vw(14);
+    line-height: get-font-vw(16);
+    text-align: center;
+    color: #171b1e;
+  }
+}
+
+.rewaste-logo{
+  position: absolute;
+  top: get-vw(38px);
+  left: get-vw(104px);
+  height: get-vw(68px);
+  width: get-vw(144px);
+}
+
+.rewaste-round-icon{
+  position: absolute;
+  top: get-vw(0px);
+  right: get-vw(48px);
+  height: get-vw(90px);
+  width: get-vw(172px);
+}
+
+.rewaste-bg-img{
+  margin-top: get-vh(144px);
+  height: get-vh(740px);
+  width: get-vh(740px);
+}
+
+.wrapfootelbl-container {
+  margin-top: get-vh(35px);
+}
+
+.rewaste-footer-left-icon{
+  position: absolute;
+  left: get-vw(0px);
+  bottom: get-vw(0px);
+  height: get-vh(117px);
+  width: get-vh(107px);
+}

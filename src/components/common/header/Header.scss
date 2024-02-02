@@ -1,0 +1,104 @@
+.navigationBar {
+    .linkItem {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        color: #717579;
+        position: relative;
+        cursor: pointer;
+    }
+
+    .linkItem.active {
+        color: #4C7B29;
+
+        &::before {
+            content: "";
+            height: 2px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: -40px;
+            background-color: #4C7B29;
+        }
+    }
+
+    .menuHasItems {
+        position: relative;
+
+        &:hover>.subMenuItems {
+            display: block;
+        }
+
+        .linkItem {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            &.active {
+                color:#4C7B29;
+                svg {
+                    color:#4C7B29; 
+                } 
+            }
+        }
+
+        .subMenuItems {
+            position: absolute;
+            top: 100%; 
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: left;
+            display: none;
+
+            .subMenuWarpper {
+                display: flex;
+                flex-direction: column;
+                gap: 25px;
+                margin-top: 15px;
+                background: #FFFFFF;
+                border: 1px solid #EEEEEE;
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.04); 
+                padding: 22px;
+                min-width: 170px;
+                border-radius: 10px;
+                text-align: left;
+                justify-content: flex-start;
+                button {
+                    justify-content: flex-start;
+                }
+                &::before, &::after {
+                    content: '';
+                    top:-23px;
+                    position: absolute;
+                    bottom: 100%;
+                    right: 68px;
+                    border: 20px solid transparent;
+                    border-bottom-color: #EEEEEE;
+                }
+                &::after {
+                    right: 69px;
+                    top: -20px;
+                    border: 19px solid transparent;
+                    border-bottom-color: #fff;
+                }
+
+                .subLinkItem {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: #171B1E;
+                    &.active {
+                        color:#4C7B29; 
+                    }
+                }
+            }
+
+
+        }
+    }
+}
+
+@media only screen and (max-width: 1368px) {
+    .navigationBar {
+        gap: 30px !important;
+    }
+}

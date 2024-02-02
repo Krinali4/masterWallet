@@ -1,0 +1,70 @@
+.PhoneInput {
+    position: relative;
+    .inputField {
+        input {
+            font-weight: 400;
+            font-size: 16px;
+            height: 60px;
+            letter-spacing: 0.1em;
+            color: #000;
+            padding-left: 90px;
+
+            &::placeholder {
+                color: #717579 !important;
+                opacity: 1 !important;
+            }
+
+            &::-webkit-input-placeholder {
+                /* Chrome/Opera/Safari */
+                color: #717579 !important;
+                opacity: 1 !important;
+            }
+
+            &::-moz-placeholder {
+                /* Firefox 19+ */
+                color: #717579 !important;
+                opacity: 1 !important;
+            }
+
+            &::-ms-input-placeholder {
+                /* IE 10+ */
+                color: #717579 !important;
+                opacity: 1 !important;
+            }
+
+            &::-moz-placeholder {
+                /* Firefox 18- */
+                color: #717579 !important;
+                opacity: 1 !important;
+            }
+        }
+
+        >div::before {
+            border-bottom: none;
+        }
+
+        >div::after {
+            border-bottom: none;
+        }
+
+        >div:hover::before {
+            border-bottom: none !important;
+        }
+
+        >div:hover::after {
+            border-bottom: none !important;
+        }
+    }
+    .selectDropdown {
+        width: 90px;
+        border-radius: 0;
+        position: absolute;
+        bottom: 0px;
+        z-index: 999;
+        background: top;
+        padding: 18px 0 18px 22px !important;
+        div {
+            font-weight: 600;
+        }
+    }
+}
